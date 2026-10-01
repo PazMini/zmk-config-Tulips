@@ -2,12 +2,11 @@ file_format: "1"
 id: lilium
 name: LiLium
 type: shield
-url: https://github.com/kata0510/Lily58
+url: https://github.com/foostan/crkbd/
 requires:
-  - nice_nano
+  - nice_nano_v2
 features:
   - keys
-  - studio
 siblings:
   - lilium_left
   - lilium_right
