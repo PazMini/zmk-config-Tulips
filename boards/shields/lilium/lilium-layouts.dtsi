@@ -79,5 +79,5 @@
             &key_physical_attrs 75 75 1400 440 0 0 0
             &key_physical_attrs 75 75 1500 440 0 0 0
         >;
-    }
-}
+    };
+};
