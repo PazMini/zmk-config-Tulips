@@ -9,7 +9,6 @@
         kscan = <&kscan0>;
 
         keys = <
-            /* Row 0 */
             &key_physical_attrs 75 75 100  40 0 0 0
             &key_physical_attrs 75 75 200  40 0 0 0
             &key_physical_attrs 75 75 300  20 0 0 0
@@ -23,7 +22,6 @@
             &key_physical_attrs 75 75 1400 40 0 0 0
             &key_physical_attrs 75 75 1500 40 0 0 0
 
-            /* Row 1 */
             &key_physical_attrs 75 75 100 140 0 0 0
             &key_physical_attrs 75 75 200 140 0 0 0
             &key_physical_attrs 75 75 300 120 0 0 0
@@ -37,7 +35,6 @@
             &key_physical_attrs 75 75 1400 140 0 0 0
             &key_physical_attrs 75 75 1500 140 0 0 0
 
-            /* Row 2 */
             &key_physical_attrs 75 75 100 240 0 0 0
             &key_physical_attrs 75 75 200 240 0 0 0
             &key_physical_attrs 75 75 300 220 0 0 0
@@ -51,7 +48,6 @@
             &key_physical_attrs 75 75 1400 240 0 0 0
             &key_physical_attrs 75 75 1500 240 0 0 0
 
-            /* Row 3 */
             &key_physical_attrs 75 75 100 340 0 0 0
             &key_physical_attrs 75 75 200 340 0 0 0
             &key_physical_attrs 75 75 300 320 0 0 0
@@ -65,7 +61,6 @@
             &key_physical_attrs 75 75 1400 340 0 0 0
             &key_physical_attrs 75 75 1500 340 0 0 0
 
-            /* Row 4 */
             &key_physical_attrs 75 75 100 440 0 0 0
             &key_physical_attrs 75 75 200 440 0 0 0
             &key_physical_attrs 75 75 300 420 0 0 0
