@@ -1,5 +1,5 @@
 #include <dt-bindings/zmk/matrix_transform.h>
-#include "lilium-layouts.dtsi"
+
 
 
 / {
@@ -9,6 +9,18 @@
         zmk,physical-layout = &physical_layout0;
         zmk,split = &split;
     };
+
+physical_layout0: physical_layout_0 {
+    compatible = "zmk,physical-layout";
+    display-name = "LiLium Layout";
+
+    transform = <&default_transform>;
+    kscan = <&kscan0>;
+
+    keys = <
+        &key_physical_attrs 100 100 0 0 0 0 0
+    >;
+};
 
 
     default_transform: keymap_transform0 {
