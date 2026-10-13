@@ -1,5 +1,4 @@
 #include "lilium.dtsi"
-#include "lilium-layouts.dtsi"
 
 &default_transform { 
     col-offset = <6>;

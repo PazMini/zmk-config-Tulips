@@ -1,5 +1,4 @@
 #include "lilium.dtsi"
-#include "lilium-layouts.dtsi"
 
 &kscan0 {
     col-gpios
