@@ -56,3 +56,13 @@ RC(4,0) RC(4,1) RC(4,2) RC(4,3) RC(4,4) RC(4,5)                 RC(4,6) RC(4,7) 
         compatible = "zmk,split-ble";
     };
 };
+
+/ {
+    physical_layout0: physical_layout_0 {
+        compatible = "zmk,physical-layout";
+        display-name = "LiLium Layout";
+
+        transform = <&default_transform>;
+        kscan = <&kscan0>;
+    };
+};
